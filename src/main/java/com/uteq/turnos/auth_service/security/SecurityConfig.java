@@ -33,7 +33,7 @@ public class SecurityConfig {
     this.errorHandlers = errorHandlers;
   }
 
-  @Value("${app.cors.allowed-origins:http://localhost:5173,http://localhost:3000}")
+  @Value("${app.cors.allowed-origins:http://localhost:5173,http://localhost:3000,https://turnos-frontend-l425d0pso-sss-projects-1be29493.vercel.app}")
   private String allowedOrigins;
 
   @Bean
